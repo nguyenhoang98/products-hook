@@ -1,0 +1,2 @@
+(this["webpackJsonpproducts-hook"]=this["webpackJsonpproducts-hook"]||[]).push([[8],{129:function(c,t,s){"use strict";s.r(t);var e=s(2);s(1);t.default=function(c){return Object(e.jsx)("div",{className:"cart",children:Object(e.jsx)("p",{children:"Chi Ti\u1ebft C\xe1c S\u1ea3n Ph\u1ea9m"})})}}}]);
+//# sourceMappingURL=8.91e612a4.chunk.js.map
