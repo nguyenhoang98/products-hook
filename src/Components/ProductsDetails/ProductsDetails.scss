@@ -1,0 +1,42 @@
+.productsdetails{
+    background: rgb(235, 235, 235);
+    margin-top:0px ;
+    padding:20px ;
+    &__left{
+        padding:20px ;
+        background: white;
+       &__image{
+         display: block;
+         margin:auto ;
+         width:90% ;
+         height: 500px ;
+         border:1px solid #ccc ;
+       }
+    }
+    &__right{
+        padding:20px ;
+        background: white;
+    }
+    &__description{
+        font-size: 20px;
+        display: inline-block;
+        text-transform: capitalize;
+    }
+    &__price{
+        font-size: 20px;
+        color:orangered ;
+    }
+}
+.btn--addtocart{
+    border:1px solid orangered ;
+    background: white;
+    color:black ;
+    color:orangered ;
+    font-size: 18px;
+}
+.btn--shop{
+    background: orangered;
+    color:white ;
+    font-size: 18px;
+    margin-left:10px ;
+}

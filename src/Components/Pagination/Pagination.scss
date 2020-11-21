@@ -1,0 +1,13 @@
+.pagination{
+    display: block ;
+    text-align:center ;
+    &__one ,
+    &__two{
+        background: rgb(153, 153, 153);
+        color:white ;
+        margin:0 6px ;
+    }
+}
+.pagination__btn{
+    background: orange;
+}

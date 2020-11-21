@@ -1,0 +1,34 @@
+.homeslider{
+  height: auto ;
+    &__left{
+        position: relative;
+        height: 280px ;
+        &__item{
+            height: 280px ;
+            &__image{
+                width:100% ;
+                height: 280px  ;
+                vertical-align: middle;
+            }
+        }
+      }
+    &__right{
+        height: 280px ;
+        &__item{
+          &__image{
+            width:100% ;
+            height: 140px  ;
+            vertical-align: middle;
+         }
+        }
+    }
+}
+
+.slick-prev{
+  position: absolute ;
+  left:10px ;
+} 
+.slick-next{
+  position: absolute ;
+  right:10px ;
+}

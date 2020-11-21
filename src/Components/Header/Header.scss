@@ -1,0 +1,97 @@
+.header{
+    width:100% ;
+    height: auto;
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+}
+.header__nav{
+    //  nav left 
+    &__left{
+        float:left ;
+    }
+    &__left ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    &__left ul li:not(:last-child)::after{
+        content: '|';
+        color:rgb(184, 182, 182) ;
+    }
+    &__left ul li a{
+        padding:10px 3px ;
+        text-decoration: none;
+        color:rgb(250, 249, 249);
+        font-size: 12px;
+        font-weight: 500 ;
+    }
+    // nav right 
+    &__right{
+        float:right ;
+    }
+    &__right ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    &__right ul li:last-child{
+        display: none;
+    }
+    &__right ul li:not(:last-child)::after{
+        content: '|';
+        color:rgb(184, 182, 182) ;
+    }
+    &__right ul li a{
+        padding:10px 6px ;
+        text-decoration: none;
+        color:rgb(250, 249, 249);
+        font-size: 12px;
+        font-weight: 500 ;
+    }
+}
+.header__navbar{
+    height: auto;
+    &__logo{
+        &__image{
+            width:160px ;
+        }
+    }
+    &__control{
+        position: relative;
+        padding:10px 0px 0px 0px ;
+        &__input{
+            width:100% ;
+            height: auto;
+            padding:12px ;
+            border:none ;
+            outline: none;
+            border-radius: 6px;
+        }
+    }
+    &__cart{
+        position: relative;
+        padding:10px 20px ;
+        font-size: 35px;
+        color:white ;
+        &__length{
+            font-size: 12px;
+            position: absolute;
+            border:1px solid white ;
+            border-radius: 50%;
+            padding:1px 4px;
+        }
+    }
+}
+.btn--search{
+    width:50px;
+    position: absolute;
+    top:12px ;
+    left:calc(100% - 52px) ;
+    border-radius: 6px;
+    background: orangered;
+}
+.btn-bar{
+    background: inherit;
+    padding:inherit ;
+}

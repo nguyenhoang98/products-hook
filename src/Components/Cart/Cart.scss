@@ -1,0 +1,21 @@
+.cart{
+    &__table{
+        width:60% ;
+        height: auto;
+        margin:auto ;
+        border-collapse: collapse;
+        & tr , th , td{
+            border:1px solid orangered ;
+        }
+        & tr:nth-child(even){
+            background: rgb(255, 94, 0);
+        }
+        & td{
+            text-align:center ;
+        }
+        &__image{
+            width:100px ;
+            height:100px ;
+        }
+    }
+}
